@@ -1,0 +1,15 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.3.3",
+    "@graphql-tools/load": "^7.5.1",
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

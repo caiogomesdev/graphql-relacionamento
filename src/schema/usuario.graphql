@@ -1,0 +1,8 @@
+# import Perfil from 'perfil.graphql'
+
+type Usuario{
+    id: ID!
+    nome: String!
+    email: String!
+    perfil: Perfil
+}
