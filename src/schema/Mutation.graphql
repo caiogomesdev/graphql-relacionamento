@@ -2,6 +2,6 @@
 
 type Mutation{
     createUser(nome: String!, email: String!, perfil_id: Int!): Usuario
-    deleteUser(id: Int): Usuario
-    alterUser(id: Int, nome: String, email: String, perfil_id: Int): Usuario
+    deleteUser(id: Int!): Usuario
+    alterUser(id: Int!, nome: String, email: String, perfil_id: Int): Usuario
 }
