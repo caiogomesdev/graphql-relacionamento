@@ -1,0 +1,9 @@
+# import Usuario from 'Usuario.graphql'
+# import Perfil from 'Perfil.graphql'
+
+type Query{
+    perfis: [Perfil]
+    perfil(id: Int!): Perfil
+    usuarios: [Usuario]
+    usuario(id: Int!): Usuario
+}

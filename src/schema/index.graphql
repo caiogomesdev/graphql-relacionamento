@@ -1,10 +1,2 @@
-# import Usuario from 'usuario.graphql'
-# import Perfil from 'perfil.graphql'
-
-type Query{
-    ola: String
-    perfis: [Perfil]
-    perfil(id: Int!): Perfil
-    usuarios: [Usuario]
-    usuario(id: Int!): Usuario
-}
+# import Query from 'Query.graphql'
+# import Mutation from 'Mutation.graphql'

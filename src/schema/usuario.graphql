@@ -1,4 +1,4 @@
-# import Perfil from 'perfil.graphql'
+# import Perfil from 'Perfil.graphql'
 
 type Usuario{
     id: ID!

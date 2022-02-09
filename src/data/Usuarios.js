@@ -1,4 +1,4 @@
-module.exports = [
+const usuarios = [
     {
         id: 1,
         nome: 'caio',
@@ -12,3 +12,4 @@ module.exports = [
         perfil_id: 2
     }
 ]
+module.exports = usuarios
